@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paint Mixer</title>
+
+    <style>
+        #Box{
+            background-color: rgb(0,0,0);
+            height: 200px;
+        }
+        #rgbColor{
+            margin: 10px;
+            height: 20px;
+        }
+        .button{
+            width:100px;
+            padding: 5px;
+            margin: auto;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="Box"></div>
+    <div id="rgbColor"></div>
+    <br/>
+
+    <div id= text> Red:</div>
+    <button id="buttonRed1" class="button" amount = 1 color-edit="red">+1</button>
+    <button id="buttonRed2" class="button" amount = 5 color-edit="red">+5</button>
+    <button id="buttonRed3" class="button" amount = 10 color-edit="red">+10</button>
+
+    <div id= text> Green:</div>
+    <button id="buttonGreen1" class="button" amount = 1 color-edit="green">+1</button>
+    <button id="buttonGreen2" class="button" amount = 5 color-edit="green">+5</button>
+    <button id="buttonGreen3" class="button" amount = 10 color-edit="green">+10</button>
+
+    <div id= text> Blue:</div>
+    <button id="buttonBlue1" class="button" amount = 1 color-edit="blue">+1</button>
+    <button id="buttonBlue2" class="button" amount = 5 color-edit="blue">+5</button>
+    <button id="buttonBlue3" class="button" amount = 10 color-edit="blue">+10</button>
+
+
+    <script src="js/mix.js"></script>
+</body>
+</html>
